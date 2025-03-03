@@ -33,7 +33,7 @@ class WebAuthServiceLib : WebAuthService {
         RelyingParty.builder()
             .identity(rpIdentity)
             .credentialRepository(registrationStorage)
-            .origins(setOf("localhost", "http://localhost:1234"))
+            .origins(setOf("localhost", "http://localhost:1234", "https://scouser122.online"))
             .attestationConveyancePreference(AttestationConveyancePreference.DIRECT)
             .build()
     }
