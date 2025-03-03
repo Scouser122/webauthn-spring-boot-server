@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: webauthn
+
+server:
+  port: 10101
