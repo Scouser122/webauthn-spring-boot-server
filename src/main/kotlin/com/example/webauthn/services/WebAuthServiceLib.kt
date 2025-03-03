@@ -26,8 +26,8 @@ class WebAuthServiceLib : WebAuthService {
 
     private val relyingParty: RelyingParty = let {
         val rpIdentity = RelyingPartyIdentity.builder()
-            .id("localhost")
-            .name("SberOTP")
+            .id("scouser122.online")
+            .name("scouser122")
             .build()
 
         RelyingParty.builder()
